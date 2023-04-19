@@ -366,7 +366,6 @@ h3 {
     background-color: #DFDFDF;
     height: 5.4vw;
     display: block;
-    /* vertical-align: bottom; */
 }
 
 .profile_win {
@@ -564,7 +563,6 @@ figcaption {
 }
 
 .xrl_row_two {
-    /* background-color: #f00101;	 */
     border-bottom: 3px solid #f4f4f4;
 }
 
