@@ -158,6 +158,7 @@ h3 {
     min-height: 6vw;
     display: flex;
     align-items: center;
+    direction: rtl;
 }
 
 .journal_logo {
@@ -416,7 +417,7 @@ h3 {
 }
 
 .mid_text {
-    font-size: 15px;
+    font-size: 0.9vw;
     text-align: justify;
 }
 
