@@ -15,6 +15,17 @@
 </head>
 
 <body>
+    <div>
+        <div style="float: right; margin: 1vw;">
+            <b>نمایش دو بعدی از ارتباط فناوری‌ها</b>
+            <p style="width: 50vw; float: right; font-size: 1vw; direction: rtl;">در پروژه فن‌کاوی در حوزه ارتباط مغز و ماشین (BCI)، پس از استخراج فناوری‌های مرتبط و محاسبه ارتباط بین آنها، در یکی از تحلیل‌های انجام شده، یک نمایش دو بعدی از فضای ارتباطی فناوری‌ها تهیه شد. در کادر زیر، این فضای دو بعدی قابل بزرگنمایی و مشاهده
+                است.
+            </p>
+
+        </div>
+        <div><img src="legend.png" height="300vw"></div>
+
+    </div>
     <div id="image-map"></div>
 
     <script src="leaflet.js"></script>
@@ -25,9 +36,9 @@
         // create the slippy map
         var map = L.map('image-map', {
             minZoom: 1,
-            maxZoom: 9,
+            maxZoom: 5,
             center: [0, 0],
-            zoom: 5,
+            zoom: 1,
             crs: L.CRS.Simple
         });
 
