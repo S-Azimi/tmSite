@@ -154,9 +154,10 @@ h3 {
     width: 100%;
     clear: both;
     background: rgba(255, 255, 255, 0.6);
-    min-height: 7vw;
     margin-top: 1vw;
     min-height: 6vw;
+    display: flex;
+    align-items: center;
 }
 
 .journal_logo {
@@ -747,6 +748,8 @@ figcaption {
     .side_cols_row {
         font-size: 4vw;
         min-height: 25vw;
+        display: flex;
+        align-items: center;
     }
     .journal_logo {
         width: 20vw;
