@@ -11,12 +11,13 @@ body {
     margin: 0;
     width: 100%;
     font-family: "Vazir";
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     text-align: justify;
 }
 
 .legend {
-    height: 300vw;
+    height: 20vw;
+    margin: 2vw;
 }
 
 
@@ -602,5 +603,9 @@ body {
         font-family: "Vazir";
         font-size: 2vw;
         text-align: justify;
+    }
+    .legend {
+        height: 80vw;
+        margin: 2vw;
     }
 }
