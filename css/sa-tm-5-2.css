@@ -177,7 +177,7 @@ h3 {
 }
 
 .links {
-    /* font-size: 1rem; */
+    font-size: 0.9vw;
     display: block;
     line-height: 1.5;
 }
@@ -614,9 +614,12 @@ figcaption {
         width: 100vw;
         min-width: 600px;
     }
-    .side_cols {
-        /* display: table-cell; */
-        /* float: right; */
+
+
+    .links {
+        font-size: 3.8vw;
+        display: block;
+        line-height: 1.5;
     }
     #right_col {
         order: 2;
