@@ -1,7 +1,15 @@
 /*! CSS-Techmining.ir By Sasan Azimi, Soroush Yousefi */
 
 
-/* orange: #ff9230  yellow:#fcfe51 */
+
+:root {
+    --orange: #ff9230;
+    --yellow:#fcfe51;
+    --dark_gray: #222222;
+    --light_gray: #dfdfdf;
+    --gray: #898989;
+}
+
 
 @font-face {
     font-family: 'Cazabelanca';
@@ -30,8 +38,7 @@ body {
     margin: 0;
     width: 100%;
     font-family: "Vazir";
-    /* background-color: #a9a9a9; */
-    background-color: #dfdfdf;
+    background-color: var(--gray);
 }
 
 p {
@@ -68,7 +75,7 @@ h3 {
 
 .header {
     z-index: 9000;
-    background-color: #222222;
+    background-color: var(--gray);
     height: 4vw;
     width: 100%;
     position: fixed;
@@ -120,12 +127,13 @@ h3 {
 
 #center_col {
     order: 2;
-    background-color: #DFDFDF;
+    background-color: var(--gray);
     width: 50%;
     /* min-width: 600px; */
     float: right;
-    background: #DFDFDF url("../img/center_col_back.svg") no-repeat left bottom;
+    background:var(--light_gray) url("../img/center_col_back.svg") no-repeat left bottom;
     background-size: 50%;
+    border-radius: 2vw;
 }
 
 #right_col {
@@ -148,6 +156,9 @@ h3 {
     display: table-cell;
     width: 25%;
     float: right;
+    border-radius: 2vw;
+    padding-top: 1vw ;
+
 }
 
 .side_cols_row {
@@ -186,6 +197,11 @@ h3 {
     padding: 0.5vw;
 }
 
+
+.side_cols_top_icons{
+    padding: 1vw;
+    height: 3vw;
+}
 .titleMenu {
     font-family: Sahel;
     border-radius: 50%;
@@ -631,13 +647,16 @@ figcaption {
         width: 100vw;
         min-width: 600px;
     }
-    #projects_title_div {
-        margin-top: 15vw;
-    }
-    .larg_icons {
+
+    .large_icons {
         width: 30vw;
         height: 21vw;
         vertical-align: middle;
+    }
+
+    .side_cols_top_icons{
+        padding: 3vw;
+        height: 1vw;
     }
     .cssplay-menu {
         width: 100vw;
