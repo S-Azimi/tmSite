@@ -783,12 +783,17 @@ figcaption {
         width: 20vw;
     }
     .footer {
+        height: 25vw;
         font-size: 3vw;
-        height: 20vw;
-        margin-top: 15vw;
-        width: 100%;
-        position: relative;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 10vw;
+        padding-top: 0.1vw;
+        border-radius: 3vw;
     }
+
+
     .contentbox {
         font-size: 4.3vw;
     }
