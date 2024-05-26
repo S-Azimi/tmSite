@@ -2,9 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.techmining.ir/</loc>
-    <title>techmining فن کاوی sasan azimi ساسان عظیمی</title>
-    <desc>فن کاوی techmining</desc>
-    <lastmod>2024-04-01</lastmod>
+    <desc>techmining فن کاوی sasan azimi ساسان عظیمی</desc>
+    <lastmod>2024-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -12,6 +11,7 @@
     <loc>https://www.techmining.ir/about_text_mining.html</loc>
     <lastmod>2023-05-15</lastmod>
     <changefreq>monthly</changefreq>
+    <desc>متن کاوی مقدمه Text mining</desc>
     <priority>0.5</priority>
   </url>
   <url>
