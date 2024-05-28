@@ -387,7 +387,8 @@ h3 {
     margin-right: 10vw;
     margin-top: 1vw;
     padding-top: 0.1vw;
-    border-radius: 2vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
 
 }
 
@@ -589,7 +590,11 @@ figcaption {
     border-bottom: 3px solid #f4f4f4;
 }
 
+.bottom_radius{
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
 
+}
 /*************************************************************************************************/
 
 
@@ -790,7 +795,9 @@ figcaption {
         margin-right: 10vw;
         margin-top: 10vw;
         padding-top: 0.1vw;
-        border-radius: 3vw;
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+        
     }
 
 
