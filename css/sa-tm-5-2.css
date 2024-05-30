@@ -99,7 +99,7 @@ h3 {
 }
 
 .container {
-    width: 100%;
+    width: 100vw;
     height: 100%;
 }
 
@@ -123,7 +123,7 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: calc(100vh - 10.6vw); /* Assuming header and footer are 40px each */
+    min-height: calc(100vh - 10.6vw); /* Assuming header and footer are 5.3 each */
  
 }
 
@@ -597,10 +597,11 @@ figcaption {
 
 }
 
-.inline {
-margin: 0.5vw;
-float: right;
-
+.inline_image {
+    margin: 0.5vw;
+    float: right;
+    width: 7vw;
+    height:4.5vw
 }
 
 .tmp{
@@ -608,34 +609,20 @@ float: right;
     padding: 0.6vw;
 
 }
+
+.footer_p_margin{
+    padding: 0.5vw 0 0 0;
+    margin: 0;
+}
+
 /*************************************************************************************************/
-
-
-/****** Larg  *******************************************************************************************************/
-
-
-/*************************************************************************************************/
-
-
-/* @media (min-width: 1800px) {
-    #about {
-        margin-top: 39vh;
-    }
-    .footer {
-        margin-top: 25vh;
-    }
-    #right_col {
-        margin-top: 100vw;
-    }
-} */
-
-
 /*************************************************************************************************/
 
 
 /****** small  *******************************************************************************************************/
 
 
+/*************************************************************************************************/
 /*************************************************************************************************/
 
 @media (max-width: 1219px) {
@@ -663,12 +650,14 @@ float: right;
     #right_col {
         order: 2;
         width: 100vw;
-        margin-top: 0vw;
+        margin-top: 20vw;
     }
     #left_col {
         order: 3;
         width: 100vw;
         min-width: 600px;
+        margin-top: 20vw;
+
     }
 
     .large_icons {
@@ -682,8 +671,9 @@ float: right;
         height: 9vw;
     }
     .cssplay-menu {
-        width: 100vw;
-        height: 100vw;
+        width: 100%;
+        height: 100vw; /* the % does not work here we should us vw*/
+        margin: 0 0 10vw 0;
     }
     .cssplay-menu .center {
         left: 17vw;
@@ -794,24 +784,12 @@ float: right;
     .side_cols_row {
         font-size: 4vw;
         min-height: 25vw;
-        display: flex;
         align-items: center;
     }
     .journal_logo {
         width: 20vw;
     }
-    .footer {
-        height: 25vw;
-        font-size: 3vw;
-        width: 80vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        margin-top:5vw;
-        padding: 1vw;
-        border-top-left-radius: 3vw;
-        border-top-right-radius: 3vw;
-        
-    }
+
 
 
     .contentbox {
@@ -844,4 +822,28 @@ float: right;
     .side_cols_padding {
         padding: 2vw;
     }
+
+    .inline_image {
+        margin: 0.5vw;
+        float: right;
+        width: 35vw;
+        height:22.5vw
+    }
+    .footer {
+        height: 25vw;
+        font-size: 3vw;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top:5vw;
+        /* padding: 0.5vw 3vw 1vw 3vw; */
+        border-top-left-radius: 3vw;
+        border-top-right-radius: 3vw;
+        
+    }
+    .footer_p_margin{
+        padding: 2vw 1vw 0 1vw;
+        margin: 0;
+    }
+
 }
