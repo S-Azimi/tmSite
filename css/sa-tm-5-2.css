@@ -169,7 +169,8 @@ h3 {
     background: rgba(255, 255, 255, 0.6);
     margin-top: 1vw;
     min-height: 6vw;
-    display: flex;
+    /* display: flex; */
+    display: block;
     align-items: center;
     direction: rtl;
 }
@@ -593,6 +594,17 @@ figcaption {
 .bottom_radius{
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
+
+}
+
+.inline {
+margin: 0.5vw;
+float: right;
+
+}
+
+.tmp{
+    text-align: justify;
 
 }
 /*************************************************************************************************/
