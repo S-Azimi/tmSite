@@ -793,8 +793,8 @@ figcaption {
         width: 80vw;
         margin-left: 10vw;
         margin-right: 10vw;
-        margin-top: 10vw;
-        padding-top: 0.1vw;
+        margin-top:5vw;
+        padding: 1vw;
         border-top-left-radius: 3vw;
         border-top-right-radius: 3vw;
         
