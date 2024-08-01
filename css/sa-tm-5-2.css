@@ -196,6 +196,10 @@ h3 {
     line-height: 1.5;
 }
 
+.hand_cursor{
+    cursor: pointer;
+}
+
 .side_cols_padding {
     padding: 0.5vw;
 }

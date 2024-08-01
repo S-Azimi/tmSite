@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     var active_text = '#descriptionOne';
     var active_content = '';
     $(active_text).show();
@@ -6,14 +6,14 @@ $(document).ready(function() {
 
     //##### Click main icons #################################################################
 
-    $("#titleOne").click(function() {
+    $("#titleOne").click(function () {
 
         $(active_text).slideUp();
         $("#descriptionOne").slideDown();
         active_text = '#descriptionOne';
     });
 
-    $("#titleTwo").click(function() {
+    $("#titleTwo").click(function () {
 
         $(active_text).slideUp();
         $("#descriptionTwo").slideDown();
@@ -21,14 +21,14 @@ $(document).ready(function() {
 
     });
 
-    $("#titleThree").click(function() {
+    $("#titleThree").click(function () {
         $(active_text).slideUp();
         $("#descriptionThree").slideDown();
         active_text = '#descriptionThree';
 
     });
 
-    $("#titleFour").click(function() {
+    $("#titleFour").click(function () {
 
         $(active_text).slideUp();
         $("#descriptionFour").slideDown();
@@ -36,7 +36,7 @@ $(document).ready(function() {
 
     });
 
-    $("#titleFive").click(function() {
+    $("#titleFive").click(function () {
 
         $(active_text).slideUp();
         $("#descriptionFive").slideDown();
@@ -51,7 +51,7 @@ $(document).ready(function() {
 
     //##### Click more #################################################################
 
-    $("#MoreOne").click(function() {
+    $("#MoreOne").click(function () {
 
         $(active_content).slideUp();
         $("#ContentOne").slideDown();
@@ -63,7 +63,7 @@ $(document).ready(function() {
 
     });
 
-    $("#MoreTwo").click(function() {
+    $("#MoreTwo").click(function () {
 
         $(active_content).slideUp();
         $("#ContentTwo").slideDown();
@@ -75,7 +75,7 @@ $(document).ready(function() {
 
     });
 
-    $("#MoreThree").click(function() {
+    $("#MoreThree").click(function () {
 
         $(active_content).slideUp();
         $("#ContentThree").slideDown();
@@ -87,7 +87,7 @@ $(document).ready(function() {
 
     });
 
-    $("#MoreFour").click(function() {
+    $("#MoreFour").click(function () {
 
         $(active_content).slideUp();
         $("#ContentFour").slideDown();
@@ -99,7 +99,7 @@ $(document).ready(function() {
 
     });
 
-    $("#MoreFive").click(function() {
+    $("#MoreFive").click(function () {
 
         $(active_content).slideUp();
         $("#ContentFive").slideDown();
@@ -113,7 +113,7 @@ $(document).ready(function() {
 
     //##### Click close #################################################################
 
-    $(".CloseContent").click(function() {
+    $(".CloseContent").click(function () {
 
         $(active_content).slideUp();
         // $('html, body').animate({scrollTop: $("#header").offset().top-30}, 1000);
@@ -125,7 +125,7 @@ $(document).ready(function() {
 
     //##### Click close #################################################################
 
-    $("#profile_win_close").click(function() {
+    $("#profile_win_close").click(function () {
         $("#profile_win").hide();
         $("#col_container").removeClass("section_blur");
 
@@ -133,18 +133,23 @@ $(document).ready(function() {
 
     //##### Profile more btn #################################################################
 
-    $("#profile_more_btn").click(function() {
+    $("#profile_more_btn").click(function () {
 
         show_profile()
-            // $("#col_container").addClass("section_blur");
-            // $("#profile_win").slideDown();
+    });
 
+
+    //##### Profile icon click #################################################################
+
+    $("#profile_more_btn").click(function () {
+
+        show_profile()
     });
 
 
     //##### info btn #################################################################
 
-    $("#info_btn").click(function() {
+    $("#info_btn").click(function () {
 
         $("#col_container").addClass("section_blur");
         $("#profile_win").slideDown();
@@ -154,7 +159,7 @@ $(document).ready(function() {
 
     //##### about_icon #################################################################
 
-    $("#info_icon").click(function() {
+    $("#info_icon").click(function () {
         $("#profile_win").slideDown();
 
     });
