@@ -175,18 +175,23 @@ function show_profile() {
 
 }
 
-function restart_tm_steps_svg(){
-    
-    // const test = document.getElementById('tm_steps_obj');
-    // console.log(test.contentDocument);
-    const svgDoc = document.getElementById('tm_steps_obj').contentDocument;
-    // select just one node
-    console.log("svg doc", svgDoc)
 
-    const nodes1 = svgDoc.getElementById('nodes')
-    // console.log("nodes var: ",nodes1)
-    nodes1.animation.beginElement();
+
+function restart_tm_steps_svg(){
+    currentScrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+    // const test = document.getElementById('tm_steps_obj');
+  console.log("------------------------", currentScrollPosition);
+    // const svgObj = document.getElementById('tm_steps_obj');
+    // svgObj.data = 'img/TM_Steps-v0.9.svg?' + new Date().getTime(); // Append a timestamp to force reload
     
+    const svgObj = document.getElementById('tm_steps_obj');
+    svgObj.data = 'img/TM_Steps-v0.9.svg?' + new Date().getTime(); // Append a timestamp to force reload
+    window.scrollTo({
+        top: 1000, // Scroll to the bottom
+        behavior: 'smooth' // Smooth scroll
+    }, 100);
+
     // const animateElements = svgDoc.querySelectorAll('animate');
     // animateElements.forEach(anim => anim.setAttribute('begin', '0s'));
 }
