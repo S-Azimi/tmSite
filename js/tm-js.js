@@ -177,15 +177,16 @@ function show_profile() {
 
 function restart_tm_steps_svg(){
     
-    const test = document.getElementById('tm_steps_obj');
-    console.log(test.contentDocument);
-    // const svgDoc = document.getElementById('tm_steps_obj').contentDocument;
+    // const test = document.getElementById('tm_steps_obj');
+    // console.log(test.contentDocument);
+    const svgDoc = document.getElementById('tm_steps_obj').contentDocument;
     // select just one node
-    // console.log("svg doc", svgDoc)
+    console.log("svg doc", svgDoc)
 
-    // const nodes1 = svgDoc.getElementById('nodes')
+    const nodes1 = svgDoc.getElementById('nodes')
     // console.log("nodes var: ",nodes1)
-    // nodes.animate.be.beginElement();
+    nodes1.animation.beginElement();
+    
     // const animateElements = svgDoc.querySelectorAll('animate');
     // animateElements.forEach(anim => anim.setAttribute('begin', '0s'));
 }
