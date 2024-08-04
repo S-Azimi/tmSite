@@ -174,3 +174,18 @@ function show_profile() {
     $("#profile_win").slideDown();
 
 }
+
+function restart_tm_steps_svg(){
+    
+    const test = document.getElementById('tm_steps_obj');
+    console.log(test.contentDocument);
+    // const svgDoc = document.getElementById('tm_steps_obj').contentDocument;
+    // select just one node
+    // console.log("svg doc", svgDoc)
+
+    // const nodes1 = svgDoc.getElementById('nodes')
+    // console.log("nodes var: ",nodes1)
+    // nodes.animate.be.beginElement();
+    // const animateElements = svgDoc.querySelectorAll('animate');
+    // animateElements.forEach(anim => anim.setAttribute('begin', '0s'));
+}
