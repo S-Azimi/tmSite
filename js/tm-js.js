@@ -11,6 +11,20 @@ $(document).ready(function () {
         $(active_text).slideUp();
         $("#descriptionOne").slideDown();
         active_text = '#descriptionOne';
+
+
+
+        $(active_content).slideUp();
+        $("#ContentOne").slideDown();
+        active_content = '#ContentOne';
+
+        // $('html, body').animate({
+        //     scrollTop: $(active_content).offset().top - 30
+        // }, 2000);
+
+
+
+
     });
 
     $("#titleTwo").click(function () {
