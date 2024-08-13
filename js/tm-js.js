@@ -41,6 +41,8 @@ $(document).ready(function () {
         $(active_content).slideUp();
         $("#ContentThree").slideDown();
         active_content = '#ContentThree';
+        console.log('three');
+        console.log('three');
 
 
     });
@@ -80,9 +82,9 @@ $(document).ready(function () {
 
     $("#MoreOne").click(function () {
 
-        $(active_content).slideUp();
-        $("#ContentOne").slideDown();
-        active_content = '#ContentOne';
+        // $(active_content).slideUp();
+        // $("#ContentOne").slideDown();
+        // active_content = '#ContentOne';
 
         $('html, body').animate({
             scrollTop: $(active_content).offset().top - 30
@@ -90,11 +92,11 @@ $(document).ready(function () {
 
     });
 
-    $("#MoreTwo").click(function () {
+    // $("#MoreTwo").click(function () {
 
-        $(active_content).slideUp();
-        $("#ContentTwo").slideDown();
-        active_content = '#ContentTwo';
+    //     $(active_content).slideUp();
+    //     $("#ContentTwo").slideDown();
+    //     active_content = '#ContentTwo';
 
         $('html, body').animate({
             scrollTop: $(active_content).offset().top - 30
@@ -104,9 +106,9 @@ $(document).ready(function () {
 
     $("#MoreThree").click(function () {
 
-        $(active_content).slideUp();
-        $("#ContentThree").slideDown();
-        active_content = '#ContentThree';
+        // $(active_content).slideUp();
+        // $("#ContentThree").slideDown();
+        // active_content = '#ContentThree';
 
         $('html, body').animate({
             scrollTop: $(active_content).offset().top - 30
@@ -116,9 +118,9 @@ $(document).ready(function () {
 
     $("#MoreFour").click(function () {
 
-        $(active_content).slideUp();
-        $("#ContentFour").slideDown();
-        active_content = '#ContentFour';
+        // $(active_content).slideUp();
+        // $("#ContentFour").slideDown();
+        // active_content = '#ContentFour';
 
         $('html, body').animate({
             scrollTop: $(active_content).offset().top - 30
@@ -128,9 +130,9 @@ $(document).ready(function () {
 
     $("#MoreFive").click(function () {
 
-        $(active_content).slideUp();
-        $("#ContentFive").slideDown();
-        active_content = '#ContentFive';
+        // $(active_content).slideUp();
+        // $("#ContentFive").slideDown();
+        // active_content = '#ContentFive';
 
         $('html, body').animate({ scrollTop: $(active_content).offset().top - 30 }, 2000);
 
