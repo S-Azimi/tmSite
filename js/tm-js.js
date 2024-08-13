@@ -92,7 +92,7 @@ $(document).ready(function () {
 
     });
 
-    // $("#MoreTwo").click(function () {
+    $("#MoreTwo").click(function () {
 
     //     $(active_content).slideUp();
     //     $("#ContentTwo").slideDown();
