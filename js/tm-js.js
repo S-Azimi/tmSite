@@ -41,10 +41,6 @@ $(document).ready(function () {
         $(active_content).slideUp();
         $("#ContentThree").slideDown();
         active_content = '#ContentThree';
-        console.log('three');
-        console.log('three');
-
-
     });
 
     $("#titleFour").click(function () {
@@ -76,16 +72,17 @@ $(document).ready(function () {
 
 
 
-
-
     //##### Click more #################################################################
 
     $("#MoreOne").click(function () {
 
-        // $(active_content).slideUp();
-        // $("#ContentOne").slideDown();
-        // active_content = '#ContentOne';
+        if (active_content == '') {
+            active_content = '#ContentOne';
+  
 
+        }
+        console.log(active_content);
+        $("#ContentOne").slideDown();  
         $('html, body').animate({
             scrollTop: $(active_content).offset().top - 30
         }, 2000);
@@ -145,9 +142,7 @@ $(document).ready(function () {
     $(".CloseContent").click(function () {
 
         $(active_content).slideUp();
-        // $('html, body').animate({scrollTop: $("#header").offset().top-30}, 1000);
         $('html, body').scrollTop(0);
-        //$("body").css("overflow", "hidden");  // remove scorllbars!
 
 
     });
