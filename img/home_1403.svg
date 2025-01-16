@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 567.18 305.52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #898989;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #30bcd3;
+        font-family: FallingSkyBlk, 'Falling Sky';
+        font-size: 39.94px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-1" x="1" y="188.69" width="111.34" height="60.82" rx="12.37" ry="12.37"/>
+    <rect class="cls-1" x="285.35" y="243.7" width="111.34" height="60.82" rx="12.37" ry="12.37"/>
+    <rect class="cls-1" x="454.84" y="136.1" width="111.34" height="60.82" rx="12.37" ry="12.37"/>
+    <rect class="cls-1" x="254.46" y="1" width="111.34" height="60.82" rx="12.37" ry="12.37"/>
+    <rect class="cls-1" x="4.39" y="55.44" width="111.34" height="60.82" rx="12.37" ry="12.37"/>
+    <path class="cls-1" d="M59.77,116.9v27.27c0,6.83,5.54,12.37,12.37,12.37h86.6"/>
+    <path class="cls-1" d="M394.93,156.54h60.58"/>
+    <path class="cls-2" d="M211.22,181.08v27.27c0,6.83-5.54,12.37-12.37,12.37h-86.6"/>
+    <path class="cls-2" d="M310.49,177.16v17.6c0,6.83,5.54,12.37,12.37,12.37h18.54c6.83,0,12.37,5.54,12.37,12.37v24.6"/>
+    <path class="cls-2" d="M309.49,62.12v17.6c0,6.83-5.54,12.37-12.37,12.37h-18.54c-6.83,0-12.37,5.54-12.37,12.37v24.6"/>
+    <text class="cls-3" transform="translate(158.86 163.56)"><tspan x="0" y="0">Techmining</tspan></text>
+  </g>
+</svg>
