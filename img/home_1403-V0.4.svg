@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 576.64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2dbcd3;
+        font-family: FallingSkyBlk, 'Falling Sky';
+        font-size: 39.94px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #888;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #ffce33;
+        opacity: .2;
+      }
+
+      .cls-5 {
+        fill: #888;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <rect class="cls-4" x="5.66" y="233.63" width="172.31" height="114.07" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="147.64" y="321.81" width="135.1" height="51.78" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="376.99" y="241.72" width="133.48" height="51.78" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="390.34" y="110.66" width="90.61" height="51.78" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="141.57" y="49.99" width="133.48" height="51.78" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="16.18" y="168.1" width="44.9" height="83.33" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="260.49" y="274.89" width="172.31" height="114.07" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="423.91" y="147.88" width="172.31" height="114.07" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="251.6" y="15.2" width="172.31" height="114.07" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="14.56" y="69.4" width="172.31" height="114.07" rx="15.98" ry="15.98"/>
+    <rect class="cls-4" x="122.16" y="444.78" width="208.72" height="131.87"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <text class="cls-1" transform="translate(192.53 204.07)"><tspan x="0" y="0">Techmining</tspan></text>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-2" x="264.85" y="22.06" width="140" height="80" rx="12.37" ry="12.37"/>
+    <rect class="cls-2" x="285.07" y="300.35" width="140" height="80" rx="12.37" ry="12.37"/>
+    <rect class="cls-2" x="455.17" y="165.74" width="140" height="80" rx="12.37" ry="12.37"/>
+    <rect class="cls-2" x="22.15" y="88.4" width="140" height="80" rx="12.37" ry="12.37"/>
+    <path class="cls-2" d="M81.92,169.42v27.27c0,6.83,5.54,12.37,12.37,12.37h86.6"/>
+    <line class="cls-3" x1="417.08" y1="209.07" x2="454.6" y2="209.07"/>
+    <path id="p1" class="cls-5" d="M239.96,234.28v35.27c0,6.27-5.1,11.37-11.37,11.37h-75.05v-25.18c0-7.37-6-13.37-13.37-13.37H24.92c-7.37,0-13.37,6-13.37,13.37v55.26c0,7.37,6,13.37,13.37,13.37h115.26c7.37,0,13.37-6,13.37-13.37v-28.08h75.05c7.37,0,13.37-6,13.37-13.37v-35.27h-2ZM151.55,310.99c0,6.27-5.1,11.37-11.37,11.37H24.92c-6.27,0-11.37-5.1-11.37-11.37v-55.26c0-6.27,5.1-11.37,11.37-11.37h115.26c6.27,0,11.37,5.1,11.37,11.37v55.26Z"/>
+    <path class="cls-2" d="M332.65,229.69v17.6c0,6.83,5.54,12.37,12.37,12.37h18.54c6.83,0,12.37,5.54,12.37,12.37v24.6"/>
+    <path class="cls-2" d="M331.65,114.65v17.6c0,6.83-5.54,12.37-12.37,12.37h-18.54c-6.83,0-12.37,5.54-12.37,12.37v24.6"/>
+  </g>
+</svg>
